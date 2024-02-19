@@ -1,0 +1,76 @@
+$base-padding: 10px;
+$base-margin: 10px;
+$base-border: 1px;
+$base-opacity: 0.5;
+$base-font-size: 10px;
+
+$utilities: (
+  "padding": (
+    "prefix": "p",
+    "values": (
+      "0": 0,
+      "1": $base-padding,
+      "2": $base-padding * 2,
+      "3": $base-padding * 4,
+      "4": $base-padding * 6,
+      "5": $base-padding * 8,
+    ),
+  ),
+  "margin": (
+    "prefix": "m",
+    "values": (
+      "0": 0,
+      "1": $base-margin,
+      "2": $base-margin * 2,
+      "3": $base-margin * 4,
+      "4": $base-margin * 6,
+      "5": $base-margin * 8,
+    ),
+  ),
+  "border": (
+    "prefix": "b",
+    "values": (
+      "0": 0,
+      "1": $base-border,
+      "2": $base-border * 2,
+      "3": $base-border * 4,
+      "4": $base-border * 6,
+      "5": $base-border * 8,
+    ),
+  ),
+  "opacity": (
+    "prefix": "o",
+    "values": (
+      "0": 0,
+      "1": $base-opacity,
+      "2": $base-opacity * 2,
+      "3": $base-opacity * 4,
+      "4": $base-opacity * 6,
+      "5": $base-opacity * 8,
+    ),
+  ),
+  "font-size": (
+    "prefix": "f",
+    "values": (
+      "0": 0,
+      "1": $base-font-size,
+      "2": $base-font-size * 2,
+      "3": $base-font-size * 4,
+      "4": $base-font-size * 6,
+      "5": $base-font-size * 8,
+    ),
+  ),
+);
+
+@each $atributo, $map in $utilities {
+    
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+    
+    @each $nombreValor, $valor in $values {
+      .#{$prefix}-#{$nombreValor} {
+        #{$atributo}: #{$valor};
+      }
+    }
+  }
+

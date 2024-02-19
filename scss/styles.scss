@@ -1,0 +1,55 @@
+@import "componentes/tarjeta";
+@import "variables";
+@import "colores";
+@import "componentes/botones";
+@import "componentes/utilities";
+@import "componentes/grid";
+
+.header {
+  background-color: burlywood;
+  margin: $margin;
+  position: relative;
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+    width: 20vw;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    right: 110%;
+    transform: translateX(1em);
+    &__item {
+      margin: $margin;
+    }
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    margin: $margin;
+  }
+  &__buttons{
+    width: 25%;
+    justify-content: space-between;
+
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  &__section {
+    margin: $margin;
+    justify-content: center;
+  }
+}
+
+.divP {
+  font-size: $font-xxl;
+  color: $danger;
+  background-color: $primary;
+  padding: $padding;
+}

@@ -1,0 +1,105 @@
+@import "../colores";
+@import "../variables";
+@import "breakpoints";
+
+@mixin theme($theme: DarkGrey) {
+  background-color: $theme;
+  color: white;
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+}
+
+@function botonicos($color) {
+  @return lighten(adjust-hue($color, 180), 30%);
+}
+
+.btn {
+  @include theme();
+
+}
+
+@each $nombre, $color in $colores {
+  .btn-#{$nombre} {
+    @include theme($color);
+    &:hover {
+      background-color: lighten($color, 20%);
+    }
+    @include xs {
+      font-size: $font-xs;
+    }
+    @include sm {
+      font-size: $font-s;
+    }
+    @include md {
+      font-size: $font-normal;
+    }
+    @include lg {
+      font-size: $font-l;
+    }
+    @include xl {
+      font-size: $font-xl;
+    }
+    @include xxl {
+      font-size: $font-xxl;
+    }
+  }
+
+  .btn-borde-#{$nombre} {
+    @include theme($color);
+    background-color: white;
+    color: $color;
+    border: 2px solid $color;
+    &:hover {
+      background-color: $color;
+      color: white;
+    }
+    @include xs {
+      font-size: $font-xs;
+    }
+    @include sm {
+      font-size: $font-s;
+    }
+    @include md {
+      font-size: $font-normal;
+    }
+    @include lg {
+      font-size: $font-l;
+    }
+    @include xl {
+      font-size: $font-xl;
+    }
+    @include xxl {
+      font-size: $font-xxl;
+    }
+  }
+
+  .btn-comp-#{$nombre} {
+    color: botonicos($color);
+    background-color: $color;
+    &:hover {
+      background-color: botonicos($color);
+      color: $color;
+    }
+    @include xs {
+      font-size: $font-xs;
+    }
+    @include sm {
+      font-size: $font-s;
+    }
+    @include md {
+      font-size: $font-normal;
+    }
+    @include lg {
+      font-size: $font-l;
+    }
+    @include xl {
+      font-size: $font-xl;
+    }
+    @include xxl {
+      font-size: $font-xxl;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+
+    $primary: #13A8F2;
+    $secondary: #6C757D;
+    $succes: #2FA745;
+    $danger: #DE3545;
+    $warning: #FFC107;
+    $info: #17A2B8;
+    $margin: 2vh !default;
+    $padding: 2vh !default;
+    $grosorBorde: 3px !default;
+    $borderRadius: 30px !default;
+    $font-normal: 20px;
+    $font-xs: $font-normal * 0.5;
+    $font-s: $font-normal * 0.75;
+    $font-l: $font-normal * 1.5;
+    $font-xl: $font-normal * 2;
+    $font-xxl: $font-normal * 3;
+    $box-shadow: 10px 10px 20px rgb(236, 146, 236);
+
+$colores: (
+    primary: #13A8F2,
+    secondary: #6C757D,
+    succes: #2FA745,
+    danger: #DE3545,
+    warning: #FFC107,
+    info: #17A2B8,
+    blanco: white,
+    negro: black,
+    manzana: rgb(207, 44, 44),
+    platano: rgb(210, 210, 22),
+    naranja: rgb(219, 146, 11),
+    verde: rgb(17, 147, 17),
+    azul: rgb(156, 156, 239),
+    gris: rgb(154, 147, 147),
+
+);
+

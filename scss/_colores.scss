@@ -1,0 +1,41 @@
+@import "variables";
+
+
+@each $nombre, $color in $colores {
+    .text-#{$nombre} {
+      color: $color;
+    }
+    .bg-#{$nombre} {
+      background-color: $color;
+    }
+
+    @if $nombre != blanco and $nombre != negro {
+        // Aclarar colores
+        .bg-#{$nombre}-light-2 {
+          background-color:  mix(white, $color, 20%);
+        }
+        .bg-#{$nombre}-light-4 {
+          background-color: mix(white, $color, 40%);
+        }
+        .bg-#{$nombre}-light-6 {
+          background-color: mix(white, $color, 60%);
+        }
+        .bg-#{$nombre}-light-8 {
+          background-color: mix(white, $color, 80%);
+        }
+    
+        // Oscurecer colores
+        .bg-#{$nombre}-dark-2 {
+          background-color: mix(black, $color, 20%);
+        }
+        .bg-#{$nombre}-dark-4 {
+          background-color: mix(black, $color, 40%);
+        }
+        .bg-#{$nombre}-dark-6 {
+          background-color: mix(black, $color, 60%);
+        }
+        .bg-#{$nombre}-dark-8 {
+          background-color: mix(black, $color, 80%);
+        }
+      }
+  }
