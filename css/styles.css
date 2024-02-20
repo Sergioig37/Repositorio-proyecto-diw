@@ -8,27 +8,27 @@
   align-items: center;
   border-radius: 30px;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .card {
     background-color: red;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .card {
     background-color: blue;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .card {
     background-color: yellow;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .card {
     background-color: green;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .card {
     background-color: purple;
   }
@@ -1086,27 +1086,27 @@
 .btn-primary:hover {
   background-color: #74ccf7;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-primary {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-primary {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-primary {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-primary {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-primary {
     font-size: 40px;
   }
@@ -1133,27 +1133,27 @@
   background-color: #13A8F2;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-primary {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-primary {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-primary {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-primary {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-primary {
     font-size: 40px;
   }
@@ -1172,27 +1172,27 @@
   background-color: #fac1a4;
   color: #13A8F2;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-primary {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-primary {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-primary {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-primary {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-primary {
     font-size: 40px;
   }
@@ -1215,27 +1215,27 @@
 .btn-secondary:hover {
   background-color: #a1a8ae;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-secondary {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-secondary {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-secondary {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-secondary {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-secondary {
     font-size: 40px;
   }
@@ -1262,27 +1262,27 @@
   background-color: #6C757D;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-secondary {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-secondary {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-secondary {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-secondary {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-secondary {
     font-size: 40px;
   }
@@ -1301,27 +1301,27 @@
   background-color: #c6c1bc;
   color: #6C757D;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-secondary {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-secondary {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-secondary {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-secondary {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-secondary {
     font-size: 40px;
   }
@@ -1344,27 +1344,27 @@
 .btn-succes:hover {
   background-color: #68d47c;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-succes {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-succes {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-succes {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-succes {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-succes {
     font-size: 40px;
   }
@@ -1391,27 +1391,27 @@
   background-color: #2FA745;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-succes {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-succes {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-succes {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-succes {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-succes {
     font-size: 40px;
   }
@@ -1430,27 +1430,27 @@
   background-color: #e08fd1;
   color: #2FA745;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-succes {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-succes {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-succes {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-succes {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-succes {
     font-size: 40px;
   }
@@ -1473,27 +1473,27 @@
 .btn-danger:hover {
   background-color: #ec8d96;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-danger {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-danger {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-danger {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-danger {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-danger {
     font-size: 40px;
   }
@@ -1520,27 +1520,27 @@
   background-color: #DE3545;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-danger {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-danger {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-danger {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-danger {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-danger {
     font-size: 40px;
   }
@@ -1559,27 +1559,27 @@
   background-color: #b9f3ee;
   color: #DE3545;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-danger {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-danger {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-danger {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-danger {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-danger {
     font-size: 40px;
   }
@@ -1602,27 +1602,27 @@
 .btn-warning:hover {
   background-color: #ffdb6d;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-warning {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-warning {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-warning {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-warning {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-warning {
     font-size: 40px;
   }
@@ -1649,27 +1649,27 @@
   background-color: #FFC107;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-warning {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-warning {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-warning {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-warning {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-warning {
     font-size: 40px;
   }
@@ -1688,27 +1688,27 @@
   background-color: #a0b8ff;
   color: #FFC107;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-warning {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-warning {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-warning {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-warning {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-warning {
     font-size: 40px;
   }
@@ -1731,27 +1731,27 @@
 .btn-info:hover {
   background-color: #4cd3e9;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-info {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-info {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-info {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-info {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-info {
     font-size: 40px;
   }
@@ -1778,27 +1778,27 @@
   background-color: #17A2B8;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-info {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-info {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-info {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-info {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-info {
     font-size: 40px;
   }
@@ -1817,27 +1817,27 @@
   background-color: #ee8a7a;
   color: #17A2B8;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-info {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-info {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-info {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-info {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-info {
     font-size: 40px;
   }
@@ -1860,27 +1860,27 @@
 .btn-blanco:hover {
   background-color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-blanco {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-blanco {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-blanco {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-blanco {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-blanco {
     font-size: 40px;
   }
@@ -1907,27 +1907,27 @@
   background-color: white;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-blanco {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-blanco {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-blanco {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-blanco {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-blanco {
     font-size: 40px;
   }
@@ -1946,27 +1946,27 @@
   background-color: white;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-blanco {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-blanco {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-blanco {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-blanco {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-blanco {
     font-size: 40px;
   }
@@ -1989,27 +1989,27 @@
 .btn-negro:hover {
   background-color: #333333;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-negro {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-negro {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-negro {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-negro {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-negro {
     font-size: 40px;
   }
@@ -2036,27 +2036,27 @@
   background-color: black;
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-negro {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-negro {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-negro {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-negro {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-negro {
     font-size: 40px;
   }
@@ -2075,27 +2075,27 @@
   background-color: #4d4d4d;
   color: black;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-negro {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-negro {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-negro {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-negro {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-negro {
     font-size: 40px;
   }
@@ -2118,27 +2118,27 @@
 .btn-manzana:hover {
   background-color: #e37e7e;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-manzana {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-manzana {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-manzana {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-manzana {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-manzana {
     font-size: 40px;
   }
@@ -2165,27 +2165,27 @@
   background-color: rgb(207, 44, 44);
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-manzana {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-manzana {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-manzana {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-manzana {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-manzana {
     font-size: 40px;
   }
@@ -2204,27 +2204,27 @@
   background-color: #a8ecec;
   color: rgb(207, 44, 44);
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-manzana {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-manzana {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-manzana {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-manzana {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-manzana {
     font-size: 40px;
   }
@@ -2247,27 +2247,27 @@
 .btn-platano:hover {
   background-color: #eeee60;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-platano {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-platano {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-platano {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-platano {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-platano {
     font-size: 40px;
   }
@@ -2294,27 +2294,27 @@
   background-color: rgb(210, 210, 22);
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-platano {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-platano {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-platano {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-platano {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-platano {
     font-size: 40px;
   }
@@ -2333,27 +2333,27 @@
   background-color: #8e8ef3;
   color: rgb(210, 210, 22);
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-platano {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-platano {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-platano {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-platano {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-platano {
     font-size: 40px;
   }
@@ -2376,27 +2376,27 @@
 .btn-naranja:hover {
   background-color: #f6be56;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-naranja {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-naranja {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-naranja {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-naranja {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-naranja {
     font-size: 40px;
   }
@@ -2423,27 +2423,27 @@
   background-color: rgb(219, 146, 11);
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-naranja {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-naranja {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-naranja {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-naranja {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-naranja {
     font-size: 40px;
   }
@@ -2462,27 +2462,27 @@
   background-color: #86aef9;
   color: rgb(219, 146, 11);
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-naranja {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-naranja {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-naranja {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-naranja {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-naranja {
     font-size: 40px;
   }
@@ -2505,27 +2505,27 @@
 .btn-verde:hover {
   background-color: #24e624;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-verde {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-verde {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-verde {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-verde {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-verde {
     font-size: 40px;
   }
@@ -2552,27 +2552,27 @@
   background-color: rgb(17, 147, 17);
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-verde {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-verde {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-verde {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-verde {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-verde {
     font-size: 40px;
   }
@@ -2591,27 +2591,27 @@
   background-color: #eb52eb;
   color: rgb(17, 147, 17);
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-verde {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-verde {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-verde {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-verde {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-verde {
     font-size: 40px;
   }
@@ -2634,27 +2634,27 @@
 .btn-azul:hover {
   background-color: #f4f4fd;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-azul {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-azul {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-azul {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-azul {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-azul {
     font-size: 40px;
   }
@@ -2681,27 +2681,27 @@
   background-color: rgb(156, 156, 239);
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-azul {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-azul {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-azul {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-azul {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-azul {
     font-size: 40px;
   }
@@ -2720,27 +2720,27 @@
   background-color: white;
   color: rgb(156, 156, 239);
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-azul {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-azul {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-azul {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-azul {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-azul {
     font-size: 40px;
   }
@@ -2763,27 +2763,27 @@
 .btn-gris:hover {
   background-color: #cbc8c8;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-gris {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-gris {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-gris {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-gris {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-gris {
     font-size: 40px;
   }
@@ -2810,27 +2810,27 @@
   background-color: rgb(154, 147, 147);
   color: white;
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-borde-gris {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-borde-gris {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-borde-gris {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-borde-gris {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-borde-gris {
     font-size: 40px;
   }
@@ -2849,27 +2849,27 @@
   background-color: #e2e4e4;
   color: rgb(154, 147, 147);
 }
-@media (min-width: 0) {
+@media (max-width: 0) {
   .btn-comp-gris {
     font-size: 10px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .btn-comp-gris {
     font-size: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .btn-comp-gris {
     font-size: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .btn-comp-gris {
     font-size: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .btn-comp-gris {
     font-size: 40px;
   }
@@ -3005,7 +3005,7 @@
   flex-flow: row wrap;
 }
 
-@media (min-width: 0) {
+@media (max-width: 0) {
   .col-xs-1 {
     box-sizing: border-box;
     flex-grow: 0;
@@ -3067,7 +3067,7 @@
     width: 100%;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .col-sm-1 {
     box-sizing: border-box;
     flex-grow: 0;
@@ -3129,7 +3129,7 @@
     width: 100%;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .col-md-1 {
     box-sizing: border-box;
     flex-grow: 0;
@@ -3191,7 +3191,7 @@
     width: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .col-lg-1 {
     box-sizing: border-box;
     flex-grow: 0;
@@ -3253,7 +3253,7 @@
     width: 100%;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .col-xl-1 {
     box-sizing: border-box;
     flex-grow: 0;
@@ -3377,6 +3377,27 @@
     width: 100%;
   }
 }
+:root {
+  --imagenes-padding: 30px;
+  --margin-generico: 10px;
+  --imagenes-size: 45%;
+  --pfuentesSize: 1.8em;
+  --h3fuentes: 1.6em;
+  --fondoMain: #d0e8e2;
+  --fondo: #a9aabc;
+  --fondoSeccionesImportantes: #5e71c2;
+  --fondoSecciones2: #454655;
+  --fondotextos: #fc888f;
+  --pFont: textoPequenio;
+  --hFont: pt;
+}
+
+@font-face {
+  font-family: textoPequenio;
+  src: url(/fonts/gowun/Gowun_Batang/GowunBatang-Bold.ttf);
+  font-family: pt;
+  src: url(/fonts/pt/PTSerif-BoldItalic.ttf);
+}
 .header {
   background-color: burlywood;
   margin: 2vh;
@@ -3416,6 +3437,66 @@
 .main__section {
   margin: 2vh;
   justify-content: center;
+}
+.main__section__row {
+  width: 100%;
+  display: flex;
+  margin: 2vh;
+  justify-content: space-evenly;
+}
+.main__section__1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #a9aabc;
+}
+.main__section__1__titulo {
+  text-align: center;
+}
+.main__section__1__image {
+  width: 35%;
+  margin: 2vh;
+}
+.main__section__1__text {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__section__2 {
+  background-color: #fc888f;
+  align-items: center;
+}
+.main__section__2:hover .main__section__2__cont {
+  visibility: visible;
+}
+.main__section__2__text {
+  text-align: center;
+  margin: 2vh;
+}
+.main__section__2__image {
+  background-image: url(/imagenes/asesoramiento.jpeg);
+  background-size: cover;
+  width: 45%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+}
+.main__section__2__cont {
+  visibility: hidden;
+}
+.main__section__2__btn {
+  box-shadow: 0px 0px 0 #fff;
+  transition: transform 0.25s ease-in-out;
+}
+.main__section__2__btn:hover {
+  transform: scale(1.2, 1.2);
+}
+.main__section__3 {
+  background-color: #d0e8e2;
 }
 
 .divP {

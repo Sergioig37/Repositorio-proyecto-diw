@@ -5,6 +5,29 @@
 @import "componentes/utilities";
 @import "componentes/grid";
 
+:root {
+  --imagenes-padding: 30px;
+  --margin-generico: 10px;
+  --imagenes-size: 45%;
+  --pfuentesSize: 1.8em;
+  --h3fuentes: 1.6em;
+  --fondoMain: #d0e8e2;
+  --fondo: #a9aabc;
+  --fondoSeccionesImportantes: #5e71c2;
+  --fondoSecciones2: #454655;
+  --fondotextos: #fc888f;
+  --pFont: textoPequenio;
+  --hFont: pt;
+}
+
+@font-face {
+  font-family: textoPequenio;
+  src: url(/fonts/gowun/Gowun_Batang/GowunBatang-Bold.ttf);
+
+  font-family: pt;
+  src: url(/fonts/pt/PTSerif-BoldItalic.ttf);
+}
+
 .header {
   background-color: burlywood;
   margin: $margin;
@@ -30,10 +53,9 @@
     flex-direction: column;
     margin: $margin;
   }
-  &__buttons{
+  &__buttons {
     width: 25%;
     justify-content: space-between;
-
   }
 }
 
@@ -44,6 +66,69 @@
   &__section {
     margin: $margin;
     justify-content: center;
+    &__row {
+      width: 100%;
+      display: flex;
+      margin: $margin;
+      justify-content: space-evenly;
+    }
+    &__1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #a9aabc;
+
+      &__titulo {
+        text-align: center;
+      }
+      &__image {
+        width: 35%;
+        margin: $margin;
+      }
+      &__text {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    &__2 {
+      background-color: #fc888f;
+      align-items: center; 
+      &:hover .main__section__2__cont{
+          visibility: visible;
+        }
+      &__text{
+        text-align: center;
+        margin: $margin;
+      }
+      &__image{
+        background-image: url(/imagenes/asesoramiento.jpeg);
+        background-size: cover;
+        width: 45%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: $margin;
+       
+      }
+      &__cont{
+        visibility: hidden;
+      }
+      &__btn{
+
+        box-shadow: 0px 0px 0 #fff;
+        transition: transform  0.25s ease-in-out;
+        &:hover{
+          transform: scale(1.2, 1.2);
+        }
+      }
+    }
+    &__3{
+      background-color: #d0e8e2;
+    }
   }
 }
 
