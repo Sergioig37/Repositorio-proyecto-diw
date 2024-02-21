@@ -3,8 +3,8 @@
 @import "breakpoints";
 
 .card{
-    width: 250px;
-    height: 420px;
+    width: 25%;
+    
     margin: $margin;
     border: solid $grosorBorde;
     display: flex;
@@ -12,24 +12,6 @@
     align-items: center;
     border-radius: $borderRadius;
 
-    @include  xs {
-        background-color: red;
-    }
-    @include  sm {
-        background-color: blue;
-    }
-    @include  md {
-        background-color: yellow;
-    }
-    @include  lg {
-        background-color: green;
-    }
-    @include  xl {
-        background-color: purple;
-    }
-    @include xxl {
-        background-color: brown
-    }
 
 
     &__img{

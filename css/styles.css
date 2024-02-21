@@ -1,42 +1,11 @@
 .card {
-  width: 250px;
-  height: 420px;
+  width: 25%;
   margin: 2vh;
   border: solid 3px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 30px;
-}
-@media (max-width: 0) {
-  .card {
-    background-color: red;
-  }
-}
-@media (max-width: 576px) {
-  .card {
-    background-color: blue;
-  }
-}
-@media (max-width: 768px) {
-  .card {
-    background-color: yellow;
-  }
-}
-@media (max-width: 992px) {
-  .card {
-    background-color: green;
-  }
-}
-@media (max-width: 1200px) {
-  .card {
-    background-color: purple;
-  }
-}
-@media (min-width: 1400px) {
-  .card {
-    background-color: brown;
-  }
+  border-radius: 25px;
 }
 .card__img {
   width: 100%;
@@ -45,7 +14,7 @@
   justify-content: center;
   align-items: center;
   border: solid 3px;
-  border-radius: 30px;
+  border-radius: 25px;
 }
 .card__title {
   font-size: 20px;
@@ -64,7 +33,7 @@
   width: 100px;
   height: 50px;
   background-color: #13A8F2;
-  border-radius: 30px;
+  border-radius: 25px;
   transition: transform 0.3s ease-in-out;
 }
 .card__btn:hover {
@@ -3441,6 +3410,7 @@
 .main__section__row {
   width: 100%;
   display: flex;
+  flex-direction: row;
   margin: 2vh;
   justify-content: space-evenly;
 }
@@ -3497,6 +3467,8 @@
 }
 .main__section__3 {
   background-color: #d0e8e2;
+  display: flex;
+  flex-direction: column;
 }
 
 .divP {
@@ -3504,6 +3476,10 @@
   color: #DE3545;
   background-color: #13A8F2;
   padding: 2vh;
+}
+
+h3 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
