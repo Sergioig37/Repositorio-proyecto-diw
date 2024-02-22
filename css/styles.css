@@ -26,7 +26,6 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 15px;
-  margin: 2vh;
   text-align: center;
 }
 .card__btn {
@@ -3402,6 +3401,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  text-align: center;
 }
 .main__section {
   margin: 2vh;
@@ -3469,6 +3469,32 @@
   background-color: #d0e8e2;
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__modoOscuro {
+  border-radius: 25px;
+  width: 5vw;
+  height: 25px;
+  background-color: black;
+}
+
+.container__oscuro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bola {
+  width: 45%;
+  border-radius: 50%;
+  height: 100%;
+  background-color: white;
 }
 
 .divP {

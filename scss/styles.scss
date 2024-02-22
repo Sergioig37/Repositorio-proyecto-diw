@@ -63,6 +63,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  text-align: center;
   &__section {
     margin: $margin;
     justify-content: center;
@@ -135,6 +136,32 @@
   }
 }
 
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__modoOscuro{
+  border-radius: 25px;
+  width: 5vw;
+  height: 25px;
+  background-color: black;
+}
+
+.container__oscuro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bola{
+  width: 45%;
+  border-radius: 50%;
+  height: 100%;
+  background-color: white;
+}
+
 .divP {
   font-size: $font-xxl;
   color: $danger;
@@ -145,3 +172,4 @@
 h3{
   text-align: center;
 }
+
