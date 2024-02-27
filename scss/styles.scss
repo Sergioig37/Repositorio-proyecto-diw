@@ -165,3 +165,10 @@ h3{
   text-align: center;
 }
 
+.mainExplore{
+  background-color: #454655;
+  &__section{
+    background-color: #a9aabc;
+    justify-content: space-evenly;
+  }
+}

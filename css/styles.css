@@ -3497,4 +3497,12 @@ h3 {
   text-align: center;
 }
 
+.mainExplore {
+  background-color: #454655;
+}
+.mainExplore__section {
+  background-color: #a9aabc;
+  justify-content: space-evenly;
+}
+
 /*# sourceMappingURL=styles.css.map */
