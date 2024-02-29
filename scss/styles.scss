@@ -22,10 +22,10 @@
 
 @font-face {
   font-family: textoPequenio;
-  src: url(/fonts/gowun/Gowun_Batang/GowunBatang-Bold.ttf);
+  src: url(../fonts/gowun/Gowun_Batang/GowunBatang-Regular.ttf);
 
   font-family: pt;
-  src: url(/fonts/pt/PTSerif-BoldItalic.ttf);
+  src: url(../fonts/pt/PTSerif-BoldItalic.ttf);
 }
 
 .header {
@@ -172,3 +172,13 @@ h3{
     justify-content: space-evenly;
   }
 }
+
+
+h1, h2, h3{
+  font-family: var(--hFont);
+}
+
+p * {
+  font-family: var(--pFont);
+}
+
