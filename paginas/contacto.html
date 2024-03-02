@@ -45,11 +45,29 @@
         </div>
       </nav>
 
-      <main class="cuerpo">
-        <form name="Contacto" data-netlify="true" method="post">
+      <main class="row main__section__row">
+        <form name="ontacto" data-netlify="true" method="post">
           <fieldset>
-           
-          </fieldset>
+            <legend>Información Personal</legend>
+            <div class="nombreFormulario">
+                <label for="nombre">Nombre: </label>
+                <br>
+                <input type="text" id="nombreid" name="nombre" minlength="3" maxlength="20" required>
+            </div>
+            <br>
+            <div class="">
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" id="emailid" name="email">
+            </div>
+            <br>
+            <div class="">
+                <label for="telefono">Telefono: </label>
+                <br>
+                <input type="tel" id="telefonoid" name="telefono" pattern="[0-9]{9}">
+            </div>
+            <br>
+        </fieldset>
           
             
           </fieldset>

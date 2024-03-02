@@ -61,8 +61,6 @@
     justify-content: center;
     &__row {
       width: 100%;
-
-      flex-direction: row;
       margin: $margin;
       justify-content: space-evenly;
     }
@@ -70,7 +68,6 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      background-color: #a9aabc;
 
       &__titulo {
         text-align: center;
@@ -182,3 +179,14 @@ p * {
   font-family: var(--pFont);
 }
 
+form{
+  width: 50%;
+  
+}
+
+fieldset{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
