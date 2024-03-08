@@ -4,6 +4,7 @@
 @import "componentes/botones";
 @import "componentes/utilities";
 @import "componentes/grid";
+@import "componentes/navbar";
 
 :root {
   --imagenes-padding: 30px;
@@ -31,16 +32,6 @@
 .header {
   background-color: burlywood;
   position: relative;
-  &__nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: aquamarine;
-  
-    &__item {
-      margin: $margin;
-    }
-  }
   &__title {
     display: flex;
     flex-direction: column;
@@ -129,27 +120,11 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #454655;
+  color: white;
+  height: 5vw;
 }
 
-.container__modoOscuro{
-  border-radius: 25px;
-  width: 5vw;
-  height: 25px;
-  background-color: black;
-}
-
-.container__oscuro{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.bola{
-  width: 45%;
-  border-radius: 50%;
-  height: 100%;
-  background-color: white;
-}
 
 .divP {
   font-size: $font-xxl;
@@ -179,14 +154,20 @@ p * {
   font-family: var(--pFont);
 }
 
+a{
+  text-decoration: none;
+}
+
 form{
   width: 50%;
-  
+  height: 80vh;
 }
 
 fieldset{
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+  
 }

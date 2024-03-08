@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  
+    .navbar-brand {
+      font-size: 24px;
+    }
+  
+    .navbar-menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        margin-right: 20px;
+  
+        &:last-child {
+          margin-right: 0;
+        }
+  
+        a {
+          color: inherit;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    .navbar-toggler {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+  
+      .navbar-toggler-icon {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        display: block;
+        position: relative;
+  
+        &::before, &::after {
+          content: '';
+          width: 100%;
+          height: 100%;
+          background-color: #fff;
+          position: absolute;
+          left: 0;
+          transition: transform 0.3s ease;
+        }
+  
+        &::before {
+          top: -10px;
+        }
+  
+        &::after {
+          top: 10px;
+        }
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      .navbar-menu {
+        display: none;
+      }
+  
+      .navbar-toggler {
+        display: block;
+      }
+  
+      &.open .navbar-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 20px;
+  
+        li {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+  
+      .open .navbar-toggler .navbar-toggler-icon {
+        transform: rotate(90deg);
+      }
+    }
+  }

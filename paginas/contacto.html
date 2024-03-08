@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../fonts/icofont/icofont.min.css" />
+    <script src="../js/script.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -15,37 +16,22 @@
           <h1 class="f-3">ProperSell</h1>
           <p class="f-2">Venta y compra de propiedades</p>
         </div>
-        <div class="row header__buttons">
-          <button class="btn-primary f-2">Menú</button>
-          <div class="row">
-            <p class="f-2">Modo Oscuro</p>
-            <div class="container__modoOscuro">
-              <div class="bola"></div>
-            </div>
-          </div>
-        </div>
+        <nav class="navbar">
+        <ul class="navbar-menu">
+          <li><a href="../index.html">Página principal</a></li>
+          <li><a href="explore.html">Explorar</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Próximamente...</a></li>
+        </ul>
+        <button class="navbar-toggler" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
       </header>
 
-      <nav class="header__nav col-xs-1">
-        <div class="header__nav__item">
-          <i class="icofont-home f-2"></i>
-          <a class="f-2" href="../index.html">Página principal</a>
-        </div>
-        <div class="header__nav__item">
-          <i class="icofont-search-property f-2"></i>
-          <a class="f-2" href="paginas/explore.html">Explorar</a>
-        </div>
-        <div class="header__nav__item">
-          <i class="icofont-contacts-alt f-2">&#xec50;</i>
-          <a class="f-2" href="contacto.html">Contacto</a>
-        </div>
+      
 
-        <div class="header__nav__item">
-          <a href="" class="f-2">Proximamente...</a>
-        </div>
-      </nav>
-
-      <main class="row main__section__row">
+      <main class="row main__section__row col-lg-12 col-sm-12 col-md-12 col-xs-12">
         <form name="ontacto" data-netlify="true" method="post">
           <fieldset>
             <legend>Información Personal</legend>
@@ -66,11 +52,8 @@
                 <br>
                 <input type="tel" id="telefonoid" name="telefono" pattern="[0-9]{9}">
             </div>
-            <br>
-        </fieldset>
-          
-            
-          </fieldset>
+            <br>  
+            <button type="submit" class="btn-primary f-2">Enviar</button>
         </form>
       </main>
 
